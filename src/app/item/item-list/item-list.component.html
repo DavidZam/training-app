@@ -1,1 +1,9 @@
-<p>item-list works!</p>
+<div *ngFor="let item of items">
+  <mat-card class="item-card">
+    <img mat-card-image src="assets/images/{{ item.image_url }}" />
+    <mat-card-content>
+      <mat-card-title>{{ item.name }}</mat-card-title>
+      <mat-card-subtitle>{{ item.price | currency : "USD" }}</mat-card-subtitle>
+    </mat-card-content>
+  </mat-card>
+</div>
