@@ -7,4 +7,25 @@ body {
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: rgb(244, 244, 244);
+}
+
+.container {
+    padding: 15px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.container-sm {
+    padding: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
